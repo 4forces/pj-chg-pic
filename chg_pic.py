@@ -3,6 +3,14 @@ import rpa as r
 r.init(visual_automation=True, chrome_browser=False)
 print('rpa initialised...')
 
+# 1. change the logo
+# 2. date of issue: 17th may 2021
+# 3. increase rev no by 1
+# 4. do at the second page
+# 5. delete 3 pictures
+
+# stop at MSM-422-01 Management System Manual_SG97-04_01.01.2020
+
 # ============ select clariant logo ================= #
 
 def del_clogo():
